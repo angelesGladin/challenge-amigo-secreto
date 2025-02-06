@@ -1,7 +1,7 @@
 let amigos = [];
 
 function agregarAmigo() {
-    //capturo nombre y limpio texto inicail (trimp)
+    //capturo nombre y limpio texto inicil (trimp)
     let capturaNombreAmigo = document.getElementById('amigo', String).value.trim();
 
     //validar la entrada
@@ -18,3 +18,14 @@ function agregarAmigo() {
     console.log(amigos);
 }
 
+function mostrarListaAmigos(){
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = ""
+
+    for (let amigo of amigos) {
+        let li = document.createElement('li');
+        li.textContent = amigo;
+        lista.appendChild(li);
+    }
+
+}
