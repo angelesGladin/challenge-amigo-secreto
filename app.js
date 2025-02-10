@@ -48,10 +48,9 @@ function sortearAmigo() {
     
     //obtener nombre sorteado
     amigoSorteado = amigos[indiceAleatorio]; 
-    console.log(amigoSorteado);
    
     //mostrar resultado 
-    document.getElementById("sortear").disabled = false
+    document.getElementById("sortear").style.display = "none";
     document.getElementById("amigoMostrado").innerHTML = `El amigo seleccionado: ${amigoSorteado}`;
    
     //mostrar botón de reinicio
@@ -67,8 +66,8 @@ function reiniciarSorteo() {
 
     //limpiar lista y el resultado
     document.getElementById("listaAmigos").innerHTML = "";
-    document.getElementById("sortear").disabled = true;
-    document.getElementById("amigoMostrado").disabled = true;
+    document.getElementById("sortear").style.display = "block";
+    document.getElementById("amigoMostrado").innerHTML = "";
 
     //ocultar botón de inicio
     document.getElementById("reiniciar").style.display = "none";
