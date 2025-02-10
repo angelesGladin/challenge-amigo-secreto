@@ -58,7 +58,8 @@ Si deseas mejorar este proyecto, ¡las contribuciones son bienvenidas! Puedes ma
 
 
 ## :construction_worker: Personas Desarrolladoras del Proyecto
-**angelesGladin** - [GitHub](https://github.com/angelesGladin)
+
+[<img src="https://avatars.githubusercontent.com/u/160809137?s=400&u=53819c9e0bceb756b1c959b51623021829b0f8ae&v=4" width=115><br><sub>Angeles Morales</sub>](https://github.com/angelesGladin) 
 
 
 ## :key: Licencia
